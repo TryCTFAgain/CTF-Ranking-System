@@ -1,0 +1,26 @@
+.login{
+	background-color: #292929;
+}
+#dynamic-img{
+	position: absolute; 
+	margin-left: 40%;
+	margin-top: -350px;
+	float: left; 
+	clear: both; 
+	width: 70%; 
+	height: 95%; 
+	z-index: 0; 
+	left no-repeat;
+    position: static;
+}
+body{
+	overflow:hidden;
+}
+
+.captcha{
+	width:100%;
+}
+
+#captcha{
+	display: none;
+}

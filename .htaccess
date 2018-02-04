@@ -1,0 +1,5 @@
+Options All -Indexes
+LimitRequestBody 512000
+
+Header append X-FRAME-OPTIONS "SAMEORIGIN"
+Header set X-XSS-Protection "1; mode=block"
