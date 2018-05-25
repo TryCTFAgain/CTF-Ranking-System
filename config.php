@@ -8,7 +8,7 @@
 // base
 define("DS"					, DIRECTORY_SEPARATOR);
 define("DOCUMENT_ROOT"		, getcwd() . DS);
-define("PATH_ROOT"			, "http://" . $_SERVER['SERVER_NAME'] . "/");
+define("PATH_ROOT"			, "http://" . $_SERVER['SERVER_NAME'] . ":81/");
 // directory
 define("ASSETS"				, PATH_ROOT . "assets/");
 define("RESOURCES"			, PATH_ROOT . "resources/");
